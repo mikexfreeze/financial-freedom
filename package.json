@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "axios": "^0.17.1",
+    "bootstrap-vue": "^2.0.0-rc.1",
     "element-ui": "^2.0.7",
     "fullcalendar": "^3.7.0",
     "moment": "^2.19.4",

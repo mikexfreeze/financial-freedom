@@ -13,7 +13,7 @@ import router from './router/router'
 import ElementUI from 'element-ui'
 import store from '@/store/store'
 
-Vue.use(ElementUI)
+// Vue.use(ElementUI)
 Vue.use(require('vue-moment'));
 Vue.prototype.stopProp = function (e) {
   e.preventDefault()
