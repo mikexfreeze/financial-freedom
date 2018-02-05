@@ -1,0 +1,40 @@
+.bar-code-container{
+    margin: 0.5rem auto 0;
+    width: 4.41rem;
+    height: 4.36rem;
+    #qr-canvas{
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
+.title{
+    width: 2.24rem;
+    height: 1.98rem;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+}
+.code-text-container{
+    margin: 0.33rem auto 0;
+    font-size: 0.36rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.validity{
+    margin: 0.33rem auto 0;
+    text-align: center;
+    font-size: 0.24rem;
+    font-weight: bold;
+
+    .validity-text{
+        display: inline-block;
+        line-height: 0.35rem;
+        height: 0.35rem;
+        padding: 0 5px;
+        color: #949494;
+    }
+}
+
+.foot{
+    margin: 0rem auto 0;
+}

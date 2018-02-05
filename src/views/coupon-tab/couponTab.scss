@@ -1,0 +1,158 @@
+.TabContent{
+    width: 100%;
+    height: 100%;
+    .Tab{
+        display: flex;
+        align-content: center;
+        width: 100%;
+        height: 0.8rem;
+        background: #ffffff;
+        padding:0 0.21rem;
+        box-sizing: border-box;
+        line-height: 0.8rem;
+        .tabs{
+            flex: 1;
+            text-align: center;
+            color: #959595;
+            position: relative;
+            font-size: 0.3rem;
+        }
+
+        .active{
+            width: 100%;
+            height: 100%;
+            color: #fb3468;
+            border-bottom: 1px solid #fb3468;
+
+        }
+    }
+    .content{
+        .listCoupon{
+            width: 91%;
+            margin: 0 auto;
+            padding-top: 11px;
+            .ticketList{
+                position: relative;
+                margin-top: -9px;
+                margin-bottom: 0.3rem;
+                .txt{
+                    display: flex;
+                    color: #fff;
+                    .TopTxt{
+                        width: 2.87rem;
+                        min-height: 1.07rem;
+                        position: absolute;
+                        top: 0.24rem;
+                        left: 1.37rem;
+                        h3{
+                            font-size: 0.3rem;
+                            font-weight: bold;
+                            margin:0;
+                        }
+                        .Time{
+                            color: #fff;
+                            margin-top: 0.14rem;
+                            margin-bottom: 0.16rem;
+                            border: 1px solid #fff;
+                            line-height: 0.34rem;
+                            font-size: 0.18rem;
+                            text-align: center;
+                        }
+                        .store{
+                            font-size: 0.18rem;
+                        }
+                    }
+                    .btn{
+                        width: 1.64rem;
+                        height: 0.54rem;
+                        display: inline-block;
+                        background: url(~@/assets/img/new/btn@2x.png) no-repeat;
+                        background-size: 100% 100%;
+                        right: 0.25rem;
+                        position: absolute;
+                        bottom: 0.22rem;
+                    }
+                  .btn_pickup{
+                    width: 1.64rem;
+                    height: 0.54rem;
+                    display: inline-block;
+                    background: url(~@/assets/img/new/btn@3x.png) no-repeat;
+                    background-size: 100% 100%;
+                    right: 0.25rem;
+                    position: absolute;
+                    bottom: 0.22rem;
+                  }
+                }
+            }
+            .ticketList:first-child{
+                margin-top: 0;
+            }
+            .ListInfo{
+                .ListInfoHead{
+                    height: 36px;
+                    line-height: 36px;
+                    padding:0 8px;
+                    box-sizing: border-box;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    background: #b1e3e3;
+                    align-items: center;
+                    span{
+                        color: #fff;
+                        font-size: 12px;
+                        text-align: center;
+                    }
+                }
+                .orderMainInfo{
+                    padding:0;
+                    margin:0;
+                    li{
+                        width: 100%;
+                        padding:0 12px;
+                        box-sizing: border-box;
+                        display: flex;
+                        justify-content: space-between;
+                        align-content: center;
+                        height: 32px;
+                        line-height: 32px;
+                        background: #fff;
+                        border-bottom: 1px dotted #ff9ba3;
+                        span{
+                            color: #535353;
+                            font-size: 12px;
+                            text-align: center;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    .snow{
+        width: 1.42rem;
+        height: 0.87rem;
+        background:url(../../assets/img/new/snow@2x.png) no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        right: 0;
+
+    }
+    .small-bg{
+        width: 2.94rem;
+        height: 1.18rem;
+        background: url(~@/assets/img/ios/tab-arrowBG@2x.png) no-repeat;
+        background-size: 100% 100%;
+        bottom: 3.43rem;
+        position: absolute;
+    }
+    .footer{
+        width: 4.25rem;
+        height: 2.5rem;
+        background: url(../../assets/img/new/car.png) no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}

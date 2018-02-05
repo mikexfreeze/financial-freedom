@@ -1,0 +1,192 @@
+li{
+    list-style: none;
+}
+input{
+    border-radius: 0;
+    resize: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-color: transparent;
+}
+.memberInfo{
+    width: 100%;
+    height: 100%;
+    .Top{
+        width: 100%;
+        height: 1.1rem;
+        background: url(../../assets/img/ios/benefit@2x.png) no-repeat;
+        background-size: 100% 100%;
+    }
+    .content{
+        .register{
+            width: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+        .form{
+            width: 80%;
+            margin: 0 auto;
+            .MainInfo{
+                width: 100%;
+                margin: 0 auto;
+                li{
+                    display: flex;
+                    align-items: center;
+                    margin-top: 0.62rem;
+                    position: relative;
+                    font-size: 0.3rem;
+                    i{
+                        position: absolute;
+                        left: 0;
+                    }
+                    .name{
+                        width: 0.32rem;
+                        height: 0.36rem;
+                        background: url(../../assets/img/new/name@2x.png) no-repeat;
+                        background-size: 100% 100%;
+                        display: inline-block;
+                    }
+                    .tel{
+                        width: 0.26rem;
+                        height: 0.35rem;
+                        background: url(../../assets/img/new/tel@2x.png) no-repeat;
+                        background-size: 100% 100%;
+                        display: inline-block;
+                    }
+                    .sex{
+                        width: 0.31rem;
+                        height: 0.31rem;
+                        background: url(../../assets/img/new/sex@2x.png) no-repeat;
+                        background-size: 100% 100%;
+                        display: inline-block;
+                    }
+                    .birth{
+                        width: 0.26rem;
+                        height: 0.38rem;
+                        background: url(../../assets/img/new/birth@2x.png) no-repeat;
+                        background-size: 100% 100%;
+                        display: inline-block
+                    }
+                    .city{
+                        width: 0.3rem;
+                        height: 0.36rem;
+                        background: url(../../assets/img/new/city@2x.png) no-repeat;
+                        background-size: 100% 100%;
+                        display: inline-block;
+                    }
+                    .email{
+                        width: 0.24rem;
+                        height: 0.27rem;
+                        background: url(../../assets/img/new/email@2x.png) no-repeat;
+                        background-size: 100% 100%;
+                        display: inline-block;
+                    }
+                    span{
+                        color: #535353;
+                        font-size: 0.3rem;
+                        font-weight: bold;
+                        width: 22%;
+                        text-align: left;
+                        margin-left: 0.44rem;
+                    }
+                    input{
+                        border-bottom: 1px solid #ff727e;
+                        color: #ff727e;
+                        width: 90%;
+                        height: 0.45rem;
+                        font-size: 0.24rem;
+                        line-height: 0.45rem;
+                    }
+                }
+                .privacy{
+                    margin-top: 0.37rem;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    position: relative;
+                    .read-cheackbox{
+                        width: 15px;
+                        height: 15px;
+                        position: absolute;
+                        left: 0;
+                        top: 11px;
+                        .checkbox-icon:after{
+                            content: '';
+                            width: 15px;
+                            height: 15px;
+                            background: url(../../assets/img/radio@2x.png) 0 0;
+                            background-size: 100% 100%;
+                            display: block;
+                            position: relative;
+                            margin-top: -28px;
+                        }
+                        input[type="checkbox"]:checked +.checkbox-icon:after{
+                            width: 15px;
+                            height: 15px;
+                            background: url(../../assets/img/new/checked@2x.png) 0 0;
+                            background-size: 100% 100%;
+                            display: block;
+                            position: relative;
+                            margin-top: -28px;
+                        }
+                        input[type='checkbox'] {
+                            width: 100%;
+                            height: 100%;
+                            opacity: 0.2;
+                            position: relative;
+                            margin-top: -28px;
+                            z-index: 9999;
+                          }
+                    }
+                     p{
+                        font-size: 0.24rem;
+                        line-height: 16px;
+                        padding: 0;
+                        margin: 0;
+                        margin-left: 22px;
+                         a{
+                             color: #fa4071;
+                             text-decoration: none;
+                         }
+                     }
+                }
+            }
+        }
+    }
+    .small-bg{
+        width: 2.94rem;
+        height: 1.18rem;
+        background: url(~@/assets/img/ios/tab-arrowBG@2x.png) no-repeat;
+        background-size: 100% 100%;
+    }
+   .snow{
+        width: 1.42rem;
+        height: 0.87rem;
+        background:url(../../assets/img/new/snow@2x.png) no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        right: -34px;
+        top:41%;
+        transform: translate(-50%,-50%)
+    }
+    .foorterBtn{
+        //position: absolute;
+        //bottom: 0.23rem;
+        //left: 0;
+        //right: 0;
+        .Submit{
+            width: 2.04rem;
+            height: 0.78rem;
+            background: url(../../assets/img/ios/submit@2x.png) no-repeat;
+            background-size: 100% 100%;
+            margin:0 auto;
+            border:none;
+            display: block;
+            }
+        p{
+            text-align: center;
+            font-size: 0.24rem;
+            padding-top: 0.18rem;
+        }
+    }
+}

@@ -1,0 +1,135 @@
+li{
+    list-style: none;
+}
+input{
+    border-radius: 0;
+    resize: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-color: transparent;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    .snow{
+        width: 1.42rem;
+        height: 0.87rem;
+        background:url(../../assets/img/new/snow@2x.png) no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        right: -34px;
+        transform: translate(-50%,-50%)
+    }
+    .Top{
+        width: 5.08rem;
+        height: 1.75rem;
+        background: url(../../assets/img/ios/bindTopMM@2x.png) no-repeat;
+        background-size: 100% 100%;
+        margin: 0 auto;
+        margin-top: 1.07rem;
+    }
+    .Main{
+        width: 6.52rem;
+        height: 2.92rem;
+        background: url(../../assets/img/ios/tel-bg@2x.png) no-repeat;
+        background-size: 100% 100%;
+        margin:0 auto;
+        margin-top: 0.2rem;
+        padding:0.78rem 0.5rem 0.65rem 0.5rem;
+        .MainInfo{
+            width: 100%;
+            margin: 0 auto;
+            li{
+                display: flex;
+                align-items: center;
+                margin-top: 16px;
+                position: relative;
+                .tel{
+                    width: 0.26rem;
+                    height: 0.35rem;
+                    background: url(../../assets/img/ios/tel@2x.png) no-repeat;
+                    background-size: contain;
+                    display: inline-block;
+                }
+                .pass{
+                    width: 0.22rem;
+                    height: 0.36rem;
+                    background: url(../../assets/img/new/pass@2x.png) no-repeat;
+                    background-size: contain;
+                    display: inline-block
+                }
+                span{
+                    color: #535353;
+                    font-weight: bold;
+                    font-size: 0.3rem;
+                    width: 28%;
+                    text-align: left;
+                    margin-left: 7px;
+                }
+                input{
+                    border-bottom: 1px solid #ff727e;
+                    color: #ff727e;
+                    width: 90%;
+                    height: 0.45rem;
+                    line-height: 0.45rem;
+                    font-size: 0.3rem;
+                }
+                button{
+                    &:disabled{
+                        background: #f67682;
+                        border-radius: 0.1rem;
+                    }
+                    color: #ffffff;
+                    //font-weight: bold;
+                    width: 1.45rem;
+                    height: 0.43rem;
+                    background: url(../../assets/img/ios/yzm@2x.png) no-repeat;
+                    background-size: 100% 100%;    
+                    border:none;               
+                    display: inline-block;
+                    position: absolute;
+                    right: 0;
+                    bottom: 0.1rem;
+                
+                }
+            }
+            li:first-child{
+                margin-top: 0;
+            }
+        }
+    }
+    .bgArrow{
+        width: 1.8rem;
+        height: 0.98rem;
+        background: url(../../assets/img/ios/tel-arrow@2x.png) no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        left: 11px;
+    }
+    .mmCar{
+        width: 2.36rem;
+        height: 0.91rem;
+        background:url(../../assets/img/ios/small-car@2x.png) no-repeat;
+        background-size: 100% 100%;
+        margin: 0 auto;
+        position: absolute;
+        left: 50%;
+        top: 82%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+
+    }
+    .Submit{
+        width: 2.04rem;
+        height: 0.78rem;
+        background: url(../../assets/img/ios/submit@2x.png) no-repeat;
+        background-size: 100% 100%;
+        margin:0 auto;
+        border:none;
+        display: block;
+        position: absolute;
+        bottom: 0.54rem;
+        left: 0;
+        right: 0;
+    }
+}
