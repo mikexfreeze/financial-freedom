@@ -17,13 +17,13 @@ const router = new Router({
   routes: [
     {
       path: '/',
-      name: 'dashboard',
-      component: HelloWorld
+      name: '主页',
+      component: home
     },
     {
       path: '/home',
-      name: '主页',
-      component: home
+      name: 'dashbord',
+      component: HelloWorld
     },
   ]
 })
