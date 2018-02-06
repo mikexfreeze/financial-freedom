@@ -5,11 +5,16 @@ const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
 // const vuxLoader = require('vux-loader')
 const webpack = require('webpack')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+
 
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
 
+function resolveApp(relativePath) {
+  return path.resolve(relativePath);
+}
 // const createLintingRule = () => ({
 //   test: /\.(js|vue)$/,
 //   loader: 'eslint-loader',
@@ -96,7 +101,10 @@ const originalConfig = {
       // Promise: 'es6-promise-promise',
       $: 'jquery',
       'jQuery': 'jquery'
-    })
+    }),
+    new HtmlWebpackPlugin({
+      favicon: resolveApp('favicon.ico')
+    }),
 
   ],
 }
