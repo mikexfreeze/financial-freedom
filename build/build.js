@@ -41,7 +41,7 @@ rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
     // let uploadOpt = {
     //   host:'122.144.180.150',
     //   username:'benapp',
-    //   password: '3WjwPsHWTj',
+    //   password: '',
     //   remoteDir: '/home/benapp/wechat_open/front_mobile/dist',
     // }
     // upload(uploadOpt)

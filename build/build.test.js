@@ -45,7 +45,7 @@ rm(path.join(path.resolve(__dirname, '../dist-test'), config.build.assetsSubDire
     //   host:'106.75.14.226',
     //   username:'ubuntu',
     //   path: path.resolve(__dirname, '../dist-test'),
-    //   password: 'arvato16!piwik',
+    //   password: '',
     //   remoteDir: '/home/ubuntu/benefit_open/front_mobile/dist',
     // }
     // upload(uploadOpt)
